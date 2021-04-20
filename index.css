@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  height: 600px;
+  margin: 10px; 
+  background-color: #fff;
+
+}
+header {
+  width: 100%;
+  height: 15%;
+  background-color: green;
+}
+.main {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+.main .left {
+  width: 30%;
+  background-color: rgb(141, 214, 236);
+}
+.main .right {
+  width: 70%;
+}
+
+.main .right .right1 {
+  height: 30%;
+  background-color: red;
+} 
+.main .right .right2 {
+  height: 70%;
+  background-color: blue;
+} 
+footer {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+}
